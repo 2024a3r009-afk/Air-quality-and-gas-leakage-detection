@@ -1,0 +1,41 @@
+
+This project is a Gas Leakage Detection System developed using an Arduino Uno and MQ135 gas sensor. The system continuously monitors the surrounding air for harmful gases and pollutants. When the gas concentration exceeds a predefined threshold value, the Arduino activates a buzzer and LED to provide both audible and visual alerts.
+
+The project is designed to enhance safety in homes, laboratories, industries, and other environments where harmful gases may be present. It is a low-cost, easy-to-implement solution for real-time gas monitoring and early warning.
+
+Components Used
+
+- Arduino Uno
+- MQ135 Gas Sensor
+- Active Buzzer
+- LED
+- Breadboard
+- Jumper Wires
+
+Features
+
+- Real-time gas detection
+- Audible alarm using buzzer
+- Visual indication using LED
+- Serial Monitor output for monitoring gas values
+- Simple and low-cost implementation
+
+Working Principle
+
+The MQ135 sensor detects harmful gases and sends an analog signal to the Arduino. The Arduino continuously reads the sensor value and compares it with a predefined threshold. If the gas concentration exceeds the threshold, the buzzer and LED are activated to alert users. Otherwise, the system remains in monitoring mode.
+
+Applications
+
+- Home safety systems
+- Industrial safety monitoring
+- Laboratories
+- Air quality monitoring
+- Educational and IoT projects
+
+Future Improvements
+
+- LCD/OLED display integration
+- GSM/SMS alert system
+- IoT-based remote monitoring
+- Automatic exhaust fan control
+- Automatic gas valve shutoff system
